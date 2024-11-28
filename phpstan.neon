@@ -1,0 +1,12 @@
+includes:
+    - vendor/phpstan/phpstan-doctrine/extension.neon
+parameters:
+    level: 9
+    paths:
+        - public
+        - src
+        - .php-cs-fixer.dist.php
+        - rector.php
+    excludePaths:
+        - tests
+    ignoreErrors:
